@@ -26,4 +26,4 @@ autocmd BufWritePre *.java :%s/\s\+$//e
 
 " Show trailing whitespaces and tabs.
 set list
-set listchars=:≥¬,trail:»
+set listchars=tab:≥¬,trail:»
